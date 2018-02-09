@@ -1,21 +1,75 @@
-#uploadBGCW{
-	position:absolute;
-	top:0px;
-	left:0;
-	width:500px;
-	height:500px;
-	margin:0;
-	padding:0;
-	border:1px solid #E6E9ED;
-	background-color:#eee;
+.cropper .img-container {
+  min-height: 200px;
+  max-height: 516px;
+  margin-bottom: 20px;
 }
-#uploadbgcanvas{
-	position:absolute;
-	top:1px;
-	left:1px;
-	width:500px;
-	height:500px;
+.cropper .img-container,
+.cropper .img-preview {
+  background-color: #f7f7f7;
+  width: 100%;
+  text-align: center;
+}
+.cropper .img-container > img {
+  max-width: 100%;
+}
+.cropper .img-preview {
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.cropper .preview-lg {
+  width: 263px;
+  height: 148px;
 }
 .pagePreview{
 	float:left !important;
+}
+.btn{
+  border-radius: 3px;
+  display: block;
+  width: 100px;
+  padding: 6px 12px;
+  background: #26B99A;
+  border: 1px solid #169F85;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  color: #fff;
+  font-family: "Helvetica Neue", Roboto, Arial, "Droid Sans", sans-serif;
+  margin-bottom: 20px;
+}
+input[type=file] {
+    display: block;
+}
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+input[type="file" i] {
+    align-items: baseline;
+    color: inherit;
+    text-align: start;
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    -webkit-rtl-ordering: logical;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
 }
