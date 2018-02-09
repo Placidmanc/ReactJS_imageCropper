@@ -1,0 +1,21 @@
+#uploadBGCW{
+	position:absolute;
+	top:0px;
+	left:0;
+	width:500px;
+	height:500px;
+	margin:0;
+	padding:0;
+	border:1px solid #E6E9ED;
+	background-color:#eee;
+}
+#uploadbgcanvas{
+	position:absolute;
+	top:1px;
+	left:1px;
+	width:500px;
+	height:500px;
+}
+.pagePreview{
+	float:left !important;
+}
